@@ -13,6 +13,13 @@ import {PluckComponent} from './observable/pluck/pluck.component';
 import {FilterComponent} from './observable/filter/filter.component';
 import {TapComponent} from './observable/tap/tap.component';
 import {TakeComponent} from './observable/take/take.component';
+import {RetryComponent} from './observable/retry/retry.component';
+import {DebouncetimeComponent} from './observable/debouncetime/debouncetime.component';
+import {SubjectComponent} from './observable/subject/subject.component';
+import {ReplaySubjectComponent} from './observable/replay-subject/replay-subject.component';
+import {AsyncSubjectComponent} from './observable/async-subject/async-subject.component';
+import {ConcatComponent} from './observable/concat/concat.component';
+import {MergeComponent} from './observable/merge/merge.component';
 
 
 const routes: Routes = [
@@ -30,6 +37,13 @@ const routes: Routes = [
       { path: 'filter', component: FilterComponent},
       { path: 'tap', component: TapComponent},
       { path: 'take', component: TakeComponent},
+      { path: 'retry', component: RetryComponent},
+      { path: 'debouncetime', component: DebouncetimeComponent},
+      { path: 'subject', component: SubjectComponent},
+      { path: 'replay-subject', component: ReplaySubjectComponent},
+      { path: 'async-subject', component: AsyncSubjectComponent},
+      { path: 'concat', component: ConcatComponent},
+      { path: 'merge', component: MergeComponent},
         ]
   },
   {

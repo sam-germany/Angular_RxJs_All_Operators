@@ -17,6 +17,20 @@ import { PluckComponent } from './observable/pluck/pluck.component';
 import { FilterComponent } from './observable/filter/filter.component';
 import { TapComponent } from './observable/tap/tap.component';
 import { TakeComponent } from './observable/take/take.component';
+import { RetryComponent } from './observable/retry/retry.component';
+import {HttpClientModule} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
+import {LoadingBarModule} from '@ngx-loading-bar/core';
+import {LoadingBarHttpClientModule} from '@ngx-loading-bar/http-client';
+import { SubjectComponent } from './observable/subject/subject.component';
+import { Comp1Component } from './comps/comp1/comp1.component';
+import { Comp2Component } from './comps/comp2/comp2.component';
+import { Comp3Component } from './comps/comp3/comp3.component';
+import { ReplaySubjectComponent } from './observable/replay-subject/replay-subject.component';
+import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
 
 
 @NgModule({
@@ -35,11 +49,25 @@ import { TakeComponent } from './observable/take/take.component';
     PluckComponent,
     FilterComponent,
     TapComponent,
-    TakeComponent
+    TakeComponent,
+    RetryComponent,
+    DebouncetimeComponent,
+    SubjectComponent,
+    Comp1Component,
+    Comp2Component,
+    Comp3Component,
+    ReplaySubjectComponent,
+    AsyncSubjectComponent,
+    ConcatComponent,
+    MergeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    LoadingBarModule,
+    LoadingBarHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
