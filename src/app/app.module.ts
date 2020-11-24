@@ -31,6 +31,13 @@ import { ReplaySubjectComponent } from './observable/replay-subject/replay-subje
 import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
 import { ConcatComponent } from './observable/concat/concat.component';
 import { MergeComponent } from './observable/merge/merge.component';
+import { MergemapComponent } from './observable/mergemap/mergemap.component';
+import { ConcatmapComponent } from './observable/concatmap/concatmap.component';
+import { Concat2Component } from './observable/concat2/concat2.component';
+import { SwitchMapComponent } from './observable/switch-map/switch-map.component';
+import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
+import { SwitchMapFinalExampleComponent } from './observable/switch-map-final-example/switch-map-final-example.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -59,7 +66,13 @@ import { MergeComponent } from './observable/merge/merge.component';
     ReplaySubjectComponent,
     AsyncSubjectComponent,
     ConcatComponent,
-    MergeComponent
+    MergeComponent,
+    MergemapComponent,
+    ConcatmapComponent,
+    Concat2Component,
+    SwitchMapComponent,
+    SwitchMap2Component,
+    SwitchMapFinalExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +80,8 @@ import { MergeComponent } from './observable/merge/merge.component';
     HttpClientModule,
     BrowserAnimationsModule,
     LoadingBarModule,
-    LoadingBarHttpClientModule
+    LoadingBarHttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

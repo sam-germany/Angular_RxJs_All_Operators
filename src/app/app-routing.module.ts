@@ -20,6 +20,12 @@ import {ReplaySubjectComponent} from './observable/replay-subject/replay-subject
 import {AsyncSubjectComponent} from './observable/async-subject/async-subject.component';
 import {ConcatComponent} from './observable/concat/concat.component';
 import {MergeComponent} from './observable/merge/merge.component';
+import {MergemapComponent} from './observable/mergemap/mergemap.component';
+import {ConcatmapComponent} from './observable/concatmap/concatmap.component';
+import {Concat2Component} from './observable/concat2/concat2.component';
+import {SwitchMapComponent} from './observable/switch-map/switch-map.component';
+import {SwitchMap2Component} from './observable/switch-map2/switch-map2.component';
+import {SwitchMapFinalExampleComponent} from './observable/switch-map-final-example/switch-map-final-example.component';
 
 
 const routes: Routes = [
@@ -44,6 +50,12 @@ const routes: Routes = [
       { path: 'async-subject', component: AsyncSubjectComponent},
       { path: 'concat', component: ConcatComponent},
       { path: 'merge', component: MergeComponent},
+      { path: 'mergemap', component: MergemapComponent},
+      { path: 'concatmap', component: ConcatmapComponent},
+      { path: 'concat2', component: Concat2Component},
+      { path: 'switchMap', component: SwitchMapComponent},
+      { path: 'switchMap-2', component: SwitchMap2Component},
+      { path: 'switchMap-finalVersion', component: SwitchMapFinalExampleComponent},
         ]
   },
   {

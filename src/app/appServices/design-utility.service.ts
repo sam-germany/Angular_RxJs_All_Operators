@@ -30,5 +30,12 @@ export class DesignUtilityService {
       .appendChild(el22);
   }
 
+  print33(val, containerId){
+    let el = document.createElement('div');
+    el.setAttribute('class', 'item')
+    el.innerHTML = val;
+    document.getElementById(containerId).prepend(el)
+  }
+
 
 }
