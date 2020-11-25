@@ -38,6 +38,10 @@ import { SwitchMapComponent } from './observable/switch-map/switch-map.component
 import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
 import { SwitchMapFinalExampleComponent } from './observable/switch-map-final-example/switch-map-final-example.component';
 import {FormsModule} from '@angular/forms';
+import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
+import { ShareReplayComponent } from './observable/share-replay/share-replay.component';
+import { CombineLatestComponent } from './observable/combine-latest/combine-latest.component';
+import { ZipForkJoinComponent } from './observable/zip-fork-join/zip-fork-join.component';
 
 
 @NgModule({
@@ -72,7 +76,11 @@ import {FormsModule} from '@angular/forms';
     Concat2Component,
     SwitchMapComponent,
     SwitchMap2Component,
-    SwitchMapFinalExampleComponent
+    SwitchMapFinalExampleComponent,
+    ExhaustMapComponent,
+    ShareReplayComponent,
+    CombineLatestComponent,
+    ZipForkJoinComponent
   ],
   imports: [
     BrowserModule,
