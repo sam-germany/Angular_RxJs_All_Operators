@@ -1,3 +1,10 @@
+These all examples are from Youtube channle  "UX Trendz"
+
+Url Link
+--------
+https://www.youtube.com/watch?v=dPqsP84GOwE&list=PLLhsXdvz0qjI68a8tLUUMyXmNhl608mcn&index=2
+
+
 # RxjsSeries
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
